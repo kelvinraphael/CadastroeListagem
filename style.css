@@ -1,0 +1,110 @@
+/* Reset e base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Card para formulários */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Inputs e selects */
+input.form-control, select.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Botões */
+.btn {
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Tabela estilizada */
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 8px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+}
+
+table td {
+    background-color: #fff;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
+
+/* Footer simples */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9rem;
+}
